@@ -1,12 +1,13 @@
 {
-  "name": "vk-bot-2",
+  "name": "dao-vk-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Бот для группы Нагваль Дао <https://vk.com/nagvaldaogroup>",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon bot",
+    "start": "node bot"
   },
-  "author": "",
+  "author": "Vladimir Dao <https://vk.com/vladimirdao>",
   "license": "ISC",
   "dependencies": {
     "node-vk-bot-api": "^2.4.11"
